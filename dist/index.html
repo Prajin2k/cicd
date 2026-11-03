@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CI/CD Demo Application</title>
+</head>
+
+<body>
+
+    <h1>Welcome to CI/CD Pipeline!</h1>
+
+    <p>This application is deployed automatically using GitHub Actions.</p>
+
+    <button onclick="showMessage()">
+        Click Me
+    </button>
+
+    <p id="message"></p>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+                "CI/CD Pipeline Working Successfully!";
+        }
+    </script>
+
+</body>
+</html>
